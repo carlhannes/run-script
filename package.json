@@ -1,0 +1,34 @@
+{
+  "name": "run-script",
+  "version": "0.1.0",
+  "description": "Run JavaScript functions easily using new Function",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlhannes/run-script.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "run-script",
+    "function"
+  ],
+  "author": "carlhannes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlhannes/run-script/issues"
+  },
+  "homepage": "https://github.com/carlhannes/run-script#readme",
+  "devDependencies": {
+    "ava": "^0.22.0"
+  }
+}
