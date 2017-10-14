@@ -20,7 +20,8 @@
     "javascript",
     "js",
     "run-script",
-    "function"
+    "function",
+    "eval"
   ],
   "author": "carlhannes",
   "license": "MIT",
