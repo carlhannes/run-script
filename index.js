@@ -7,8 +7,8 @@ function runScript(script, args, context) {
     return f.apply(context, Object.keys(args).map(function (k) {
       return args[k];
     }));
-  } catch (e) {
-    return { error: e };
+  } catch (err) {
+    return { error: err };
   }
 }
 

@@ -15,3 +15,9 @@ test(t => {
 test(t => {
   t.is(runScript('return this.test;', {}, { test: 't1' }), 't1');
 });
+
+test(t => {
+  const result = runScript('retukoo?');
+  t.true(typeof result.error !== 'undefined');
+  t.is(result.error.name, 'SyntaxError');
+});
